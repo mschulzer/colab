@@ -1,0 +1,15 @@
+{% extends '_base.html' %}
+{% load static %}
+
+{% block content %}
+
+<div class="container mt-5">
+    <h4>Fotometrix CSV-files:</h3>
+    <ul class="mt-3">
+        <li><a href="{% static 'global.csv' %}">global.csv</a></li>
+        <li><a href="{% static 'session.csv' %}">session.csv</a></li>
+        <li><a href="{% static 'session1.csv'%}">session1.csv</a></li>
+        <li><a href="{% static 'session3.csv'%}">session3.csv</a></li>
+    </ul>
+</div>
+{% endblock %}
